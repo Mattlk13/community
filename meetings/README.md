@@ -2,7 +2,7 @@
 
 ## #ansible-meeting
 
-Ansible IRC meetings are held on [freenode](https://freenode.net/). .
+Ansible IRC meetings are held on [freenode](https://freenode.net/).
 
 If you receive an error when you connect, see [Freenode’s Nickname Registration guide](https://freenode.net/kb/answer/registration) for instructions.
 
@@ -15,12 +15,21 @@ You can add this full list of meetings to your personal calendar by importing by
 
 ### Mondays
 
+* [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC):
+  **[Security Automation Working Group](https://github.com/ansible/community/wiki/Security-Automation)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/security.ics))
+  in `#ansible-security`
 * [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
   **[VMware Working Group](https://github.com/ansible/community/wiki/vmware)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/vmware.ics))
   in `#ansible-vmware`
 
 ### Tuesdays
+
+* [13:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
+  **[Azure Working Group](https://github.com/ansible/community/wiki/azure)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/azure.ics))
+  in `#ansible-azure`
 
 * [14:30 UTC](http://www.thetimezoneconverter.com/?t=14:30&tz=UTC):
   **[Documentation Working Group](https://github.com/ansible/community/wiki/docs)**
@@ -44,15 +53,10 @@ You can add this full list of meetings to your personal calendar by importing by
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/network.ics))
   in `#ansible-network`
 
-* [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC):
-  **[Molecule Working Group](https://github.com/ansible/community/wiki/molecule)**
-  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/molecule.ics))
-  in `#ansible-molecule`
-
-* [00:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
-  **[Azure Working Group](https://github.com/ansible/community/wiki/azure)**
-  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/azure.ics))
-  in `#ansible-azure`
+* [18:00 UTC](http://www.thetimezoneconverter.com/?t=18:00&tz=UTC):
+  **[Community Working Group](https://github.com/ansible/community/issues/539)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/community.ics))
+  in `#ansible-community`
 
 ### Thursdays
 
@@ -91,12 +95,13 @@ A place to get input from the Ansible Core Team issues, PRs and proposals that p
 
 All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-meeting&type=channel). No other logs are recorded.
 
+There is [a script](./read_minutes.py) that can turn IRC minutes into a summarized form for posting to meeting agenda topics.
+
 ### Other Meetings
 
 #### 2019-09-23: Ansible Contributor Summit 7 (Part of AnsibleFest 2019 Atlanta)
 
 * [planning](https://etherpad.openstack.org/p/ansible-summit-atlanta-2019)
-* ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/atlanta-contributors-summit.ics))
 
 #### 2018-10-0(1,4): Ansible Contributor Summit 6 (Part of AnsibleFest 2018 Austin, Texas)
 

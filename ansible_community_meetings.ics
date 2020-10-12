@@ -2,18 +2,45 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
-SUMMARY:Azure working group
-DTSTART;VALUE=DATE-TIME:20181129T000000Z
+SUMMARY:Ansible Security Automation working group
+DTSTART;VALUE=DATE-TIME:20191118T150000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Azure working group\nChair:  Matt Davis (nitzmahone)
- \, Kylie Liang (kyliel)\nDescription:  \nWe discuss everything related to
- Azure every week on Wednesday.\n\nIf you have something to discuss (e.g. a
-  PR that needs help)\, add your\nrequest to the meeting agenda and join th
- e IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/issues
- ?q=is:open+label:meeting_agenda+label:azure\nProject URL:  https://github.
- com/ansible/community/wiki/azure
+DESCRIPTION:Project:  Ansible Security Automation working group\nChair:  A
+ dam Miller (maxamillion)\, Sumit Jaiswal (justjais)\, Abhijeet Kasurde (ak
+ asurde)\nDescription:  \nWe discuss everything about Information Security
+ Automation in Ansible every week on Monday.\n\nIf you have something to di
+ scuss (e.g. a PR that needs help)\, add your\nrequest to the meeting agend
+ a and join the IRC channel.\n\nAgenda URL:  https://github.com/ansible/com
+ munity/issues?q=is:open+label:meeting_agenda+label:security\nProject URL:
+  https://github.com/ansible/community/wiki/Security-Automation
+LOCATION:#ansible-security
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Azure working group
+DTSTART;VALUE=DATE-TIME:20191105T130000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY;INTERVAL=2
+DESCRIPTION:Project:  Azure working group\nChair:  Anshul Behl (anshulbehl
+ )\, Jacob Jackson (thedoubl3j)\nDescription:  \nWe discuss everything rela
+ ted to Azure every week on Tuesday.\n\nIf you have something to discuss (e
+ .g. a PR that needs help)\, add your\nrequest to the meeting agenda and jo
+ in the IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/i
+ ssues?q=is:open+label:meeting_agenda+label:azure\nProject URL:  https://gi
+ thub.com/ansible/community/wiki/azure
 LOCATION:#ansible-azure
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Community working group
+DTSTART;VALUE=DATE-TIME:20200603T180000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Community working group\nChair:  John Barker (gundal
+ ow)\nDescription:  \nDiscuss everything related to Ansible Community and C
+ ontributor experience.\n\nAgenda URL:  https://github.com/ansible/communit
+ y/issues?q=is:open+label:meeting_agenda+label:contributor_experience\nProj
+ ect URL:  https://github.com/ansible/community/wiki/Community
+LOCATION:#ansible-community
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Core Team meeting
@@ -86,13 +113,13 @@ LOCATION:#ansible-molecule
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network working group
-DTSTART;VALUE=DATE-TIME:20181128T160000Z
+DTSTART;VALUE=DATE-TIME:20200506T160000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Network working group\nChair:  Peter Sprygada (priva
- teip)\nDescription:  \nDiscuss everything network.\n\nAgenda URL:  https:/
- /github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:
- network\nProject URL:  https://github.com/ansible/community/wiki/Network
+DESCRIPTION:Project:  Network working group\nChair:  Nathaniel Case (Qalth
+ os)\, Paul Belanger (pabelanger)\nDescription:  \nDiscuss everything netwo
+ rk.\n\nAgenda URL:  https://github.com/ansible/community/labels/network\nP
+ roject URL:  https://github.com/ansible/community/wiki/Network
 LOCATION:#ansible-network
 END:VEVENT
 BEGIN:VEVENT
